@@ -49,7 +49,7 @@ The result is a 0-100 `risk_score` used to prioritize review.
 ## Quick start
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/SentinelLite.git
+git clone https://github.com/hallleedustin-alt/SentinelLite.git
 cd SentinelLite
 
 python -m venv .venv
