@@ -1,6 +1,6 @@
 # SentinelLite
 
-A lightweight Python security-log anomaly detector built as a portfolio project.
+A lightweight Python security-log anomaly detector for prioritizing unusual authentication and activity events.
 
 SentinelLite combines **feature engineering**, **Isolation Forest anomaly detection**, and
 simple explainable security rules to identify suspicious events in authentication and
