@@ -1,0 +1,13 @@
+SentinelLite analysis complete
+----------------------------------
+Events analyzed : 355
+Events flagged  : 15
+Flag rate       : 4.23%
+Highest risk    : 100.0
+
+Top suspicious events included:
+- admin from 185.44.72.19 at 02:13 with 18 failed attempts
+- admin from 185.44.72.19 at 02:18 with 12 failed attempts
+- intern VPN access from 91.214.88.7 at 04:03
+- jdoe file access with 610000 outbound bytes
+- serviceacct file access with 480000 outbound bytes
