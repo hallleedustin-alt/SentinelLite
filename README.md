@@ -6,6 +6,12 @@ SentinelLite combines **feature engineering**, **Isolation Forest anomaly detect
 simple explainable security rules to identify suspicious events in authentication and
 activity logs.
 
+## Live Demo
+
+🚀 **[Launch the SentinelLite Security Dashboard](https://sentinellite-security.streamlit.app/)**
+
+Try SentinelLite in your browser: analyze the included sample security logs, adjust anomaly-detection sensitivity, inspect risk-ranked events, or upload a compatible CSV file.
+
 ## Why I built it
 
 Security teams often have more log data than they can manually review. This project shows
