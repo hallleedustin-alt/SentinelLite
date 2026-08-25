@@ -23,6 +23,8 @@ pretending that an anomaly automatically means malicious activity.
 - explainable rule-based scoring
 - command-line tooling
 - unit testing
+- Streamlit dashboarding
+- data visualization
 
 ## Detection logic
 
@@ -78,6 +80,33 @@ Saved: summary.json
 
 The output CSV ranks suspicious events so an analyst can investigate the highest-risk
 activity first.
+
+
+## Visual results
+
+The chart below is generated from SentinelLite's included sample security-log dataset.
+
+![SentinelLite highest-risk events](assets/results_overview.png)
+
+## Interactive dashboard
+
+SentinelLite also includes a Streamlit dashboard for interactive analyst review.
+
+Run it with:
+
+```bash
+streamlit run dashboard.py
+```
+
+The dashboard provides:
+
+- analysis summary metrics
+- highest-risk event visualization
+- flagged event-type counts
+- sortable analyst review queue
+- adjustable anomaly-detection sensitivity
+- CSV upload support
+- flagged-event CSV export
 
 ## Files
 
