@@ -74,8 +74,11 @@ with left:
         st.success("No events were flagged with the current settings.")
     else:
         top = flagged.head(10).copy()
+        top["timestamp"] = pd.to_datetime(top["timestamp"])
         top["event_label"] = (
-            top["user"].astype(str)
+            top["timestamp"].dt.strftime("%H:%M")
+            + " | "
+            + top["user"].astype(str)
             + " | "
             + top["event_type"].astype(str)
             + " | "
