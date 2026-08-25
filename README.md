@@ -86,7 +86,7 @@ activity first.
 
 The chart below is generated from SentinelLite's included sample security-log dataset.
 
-![SentinelLite highest-risk events](assets/results_overview_v2.png)
+![SentinelLite highest-risk events](results_overview_v2.png)
 
 ## Interactive dashboard
 
